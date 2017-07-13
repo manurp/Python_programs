@@ -1,0 +1,4 @@
+INFO:root:Logger add ran with arguments (2, 5)
+INFO:root:Logger sub ran with arguments (5, 2)
+INFO:root:Logger add ran with arguments (2, 5)
+INFO:root:Logger sub ran with arguments (2, 5)
