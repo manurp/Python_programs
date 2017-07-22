@@ -1,0 +1,4 @@
+This is a simple file
+testing the curse words
+that can be present in the file
+which can occur due to any reason
