@@ -9,3 +9,7 @@ print(*[(len(list(c)), int(k)) for k, c in groupby(input())])
 
 # for i,j in groupby(input()):
 # 	print((len(list((j))),int(i)),end=' ')
+
+
+# for i,j in groupby(map(int,list(input()))):
+#     print(tuple([len(list(j)), i]) ,end = " ")
