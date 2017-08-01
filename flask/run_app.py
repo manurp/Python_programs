@@ -1,7 +1,8 @@
 import os
 
 # from library.simple import app
-from library.html import app
+# from library.html import app
+from library.template_str_inside import app
 
 if __name__ == "__main__":
     app.debug = True
