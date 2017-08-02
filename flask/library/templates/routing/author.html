@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Author - {{ author.full_name }}</title>
+    </head>
+    <body>
+        <h1>{{ author.full_name }}</h1>
+        <ul>
+          <li><strong>Born:</strong> {{ author.born }}</li>
+          <li><strong>Nationality:</strong> {{ author.nationality }}</li>
+          <li><strong>Notable Work:</strong> {{ author.notable_work }}</li>
+        </ul>
+        <div><img src="{{ author.picture }}" alt="{{ author.full_name }}" width="300px" height="400px"></div>
+
+        <p><a href="{{ url_for('authors') }}">Back to Authors</a></p>
+    </body>
+</html>

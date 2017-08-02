@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Authors</title>
+    </head>
+    <body>
+        <h1>Here's a list of authors:</h1>
+        <ul>
+          <li><a href="/author/poe">Edgar Allan Poe</a></li>
+          <li><a href="{{ url_for('author', authors_last_name='borges') }}">Jorge Luis Borges</a></li>
+        </ul>
+    </body>
+</html>
