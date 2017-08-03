@@ -4,7 +4,10 @@ import os
 # from library.html import app
 # from library.template_str_inside import app
 # from library.template_outside import app
-from library.basic_routing import app
+# from library.basic_routing import app
+# from library.raising_custom_errors import app
+# from library.request_info import app
+from library.redirects import app
 
 if __name__ == "__main__":
     app.debug = True
