@@ -7,7 +7,8 @@ import os
 # from library.basic_routing import app
 # from library.raising_custom_errors import app
 # from library.request_info import app
-from library.redirects import app
+# from library.redirects import app
+from library.simple_database_app import app
 
 if __name__ == "__main__":
     app.debug = True
