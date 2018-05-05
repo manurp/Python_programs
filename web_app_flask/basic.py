@@ -1,18 +1,18 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
 posts_list = [
     {
         'author': 'Manoj',
-        'title': 'FIrst blog',
+        'title': 'First blog',
         'date': 'April 17 2018',
         'content': 'first blog using python and flask'
     },
     {
         'author': 'Bhoomi',
         'title': 'Secod blog',
-        'date': 'April 17 2018',
+        'date': 'June 19 2018',
         'content': 'Second blog using html and flask'
     }
 ]
@@ -21,7 +21,7 @@ posts_list = [
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template('home.html')
+    return render_template('home.html', posts=posts_list)
 
 
 @app.route("/posts")
