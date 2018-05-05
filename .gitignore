@@ -1,5 +1,6 @@
 __pycache__
 ignore
 flask/env
+web_app_flask/web_flask
 
 flask/sqlite3.exe
