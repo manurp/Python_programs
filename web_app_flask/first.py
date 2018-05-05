@@ -11,7 +11,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return "<h1>about page</h1>"
+    return "<h1>About page</h1>"
 
 
 if __name__ == '__main__':
