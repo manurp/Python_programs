@@ -8,6 +8,10 @@
     {% endif %}
 </head>
 <body>
-    <h1>About Page</h1>
+    {% for post in posts %}
+        <h1>{{post.title}}</h1>
+        <p>By {{post.author}} on {{post.date}}</p>
+        <p>{{post.content}}</p>
+    {% endfor %}
 </body>
 </html>
