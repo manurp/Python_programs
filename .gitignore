@@ -4,3 +4,4 @@ flask/env
 web_app_flask/web_flask
 *.db
 flask/sqlite3.exe
+Image Processing/imgp
