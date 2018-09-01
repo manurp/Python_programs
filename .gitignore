@@ -1,7 +1,10 @@
 __pycache__
 ignore
 flask/env
+django/djangoenv
 web_app_flask/web_flask
 *.db
+*.avi
+*.mp3
 flask/sqlite3.exe
 Image Processing/imgp
