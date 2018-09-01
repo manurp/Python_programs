@@ -1,7 +1,7 @@
 __pycache__
 ignore
 flask/env
-django/djangoenv
+django_site/djangoenv
 web_app_flask/web_flask
 *.db
 *.avi
